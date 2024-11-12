@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(129,70,18);
+    background: linear-gradient(0deg, rgba(129,70,18,1) 0%, rgba(242,148,31,1) 100%);
+    color: white;
+    font-family: "Architects Daughter", cursive;
+    font-weight: 300;
+
+    width: 100%;
+}
+
+.profile{
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 100px;
+    border: 2.5px solid white;
+    box-shadow: 0 0 30px white;
+    margin: 30px;
+}
+h1{
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.socials{
+    filter: invert();
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 25px;
+    list-style: none;
+    cursor: pointer;
+} 
+
+.links-list{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.links-list ul {
+    list-style: none;
+   
+}
+
+.links-list a {
+    text-decoration: none
+}
+
+.links-list ul li{
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid rgb(248, 248, 248);
+    box-shadow: 0 0 15px rgb(250, 251, 252);
+    border-radius: 20px;
+}
+
+.boton{
+    background-color: white;
+    /* width: 600px; */
+}
+
+.boton h2{
+    font-weight: 600;
+    color: black;
+}
+
